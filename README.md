@@ -7,7 +7,7 @@
 
 ## Business Problem
 
- Our company is planning on expanding into the airplane industry. Our stakeholder, the head of the newly created aviation division, is eager to start spearheading this department. But, where do we start? We come in to assess the risk each airplane manufacturers and the type of airplane they make that will present the least risk for our first airplane. We did outside research to see which airplane manufacturers are the top 4 that we can pick. We then analyse these manufacturers and find which of them present with the least accidents and incidents along with number of fatal injuries in the past 20 years. Why are these metrics important for us to consider? As a new company, we want to establish a firm trust with our customers that we will provide the best way for your travel to your destination.
+ Our company is planning on expanding into the airplane industry. Our stakeholder, the head of the newly created aviation division, is eager to start spearheading this department. But where do we start? We come in to assess the risk of each airplane manufacturer and the type of airplane they make that will present the least risk for our first airplane. We did outside research to see which airplane manufacturers are the top 4 that we can pick. We then analyze these manufacturers and find which presents the least number of accidents and incidents, along with the number of fatal injuries in the past 20 years. Why are these metrics vital for us to consider? As a new company, we want to establish a firm trust with our customers that we will provide the best way for you to travel to your destination.
 
 
 ## Data Understanding
@@ -18,7 +18,7 @@ In this data, it contains 88889 entries with a total of 31 columns.
 
 ## Data Analysis
 
-Through outside resource, we determined that the best way to start is through reputation. Hence, we decided to restrict our exploration to the top 4 airplane manufacturers, and they are Beechcraft, Airbus, Boeing, and Bombardier.
+Through an outside resource, we determined that the best way to start is through reputation. Hence, we decided to restrict our exploration to the top 4 airplane manufacturers, and they are Beechcraft, Airbus, Boeing, and Bombardier.
 
 We first added a new column 'Year' to better filter according to year. We then filtered the data to only include accidents after the year 2002 and that occurred in the United States only. 
 
@@ -32,38 +32,44 @@ Final dataset N = 2688
 ### Total Number of Accidents/Incidents for each of the Top 4 Airplane Manufacturers
 ![graph1](./Image/manufacturersVSaccidents.png)
 
-In the past 20 years, Airbus and Bombardier had the least amount of Accidents/Incidents in the United States.
+Airbus and Bombardier had the least amount of Accidents/Incidents in the United States.
 
 
 ### Total Number of Fatal Injuries for each of the Top 4 Airplane Manufacturers
 ![graph2](./Image/ManufacturersVSFatalInjuries.png)
 
-Again, we see that, in the past 20 years, Airbus and Bombardier had the least amount of Fatal Injuries in the United States
+We went further to take into account number of Total Fatal Injuries for the top 4 airplane manufacturers in the past 20 years. The graph shows that Airbus and Boeing had the least amount of Total Fatal Injuries.
 
 ### Total Number of Injuries for each of the Top 4 Airplane Manufacturers
 ![graph3](./Image/ManufacturersVSTotalInjuries.png)
 
-To continue with the trend we have been seeing so far, in the past 20 years, Airbus and Bombardier had the least amount of total Injuries in the United States.
+In regards to Total Injuries, which does not include fatalities, Airbus and Bombardier are responsible for the least amount. 
 
 ### Total Fatal Injuries in the past 20 years by year and for each top 4 Manufacturers
 ![graph4](./Image/FatalInjuriesOverYearsbyManufacturers.png)
 
 In comparing these graphs, we see that Airbus has been consistent in the past 20 years in having the least amount of Fatal Injuries
 
-### Total Number of Fatal Injuries for different Types of Engine for each of the Top 4 Airplane Manufacturers
-![graph5](./Image/TypeofEngineIncidentsVSManufacturers.png)
+### A Trendline View of Total Fatal Injuries in the past 20 years for each top 4 manufacturers
+![graph5](./Image/FatalInjuriesTrendline.png)
 
-This graphs tells us that, in the past 20 years, Turbo Shaft and Turbo Jet engine had the least amount of Fatal Injuries in the United States.
+Here is another view of the Number of Fatal Injuries for each of the top 4 manufacturers with a trendline.
+
+
+### Total Number of Fatal Injuries for different Types of Engine for each of the Top 4 Airplane Manufacturers
+![graph6](./Image/TypeofEngineIncidentsVSManufacturers.png)
+
+This graph tells us that Turbo Shaft and Turbo Jet engine had the least amount of Fatal Injuries.
 
 ## Conclusion
 
-We recommend choosing Airbus manufactured airplanes that use a Turbo Jet engine.
+After conducting data analysis, we recommend choosing Airbus manufactured airplanes since they have been responsible for only 1% of the fatalities out of the top 4 airplane manufacturers. Since we recommend Airbus, we also recommend to start with commercial airlines. Finally, we also recommend Turbo Jet engine type airplanes since our data analysis indicates that Airbus manufactured Turbo Jet airplanes are responsible for 0 fatal injuries.
 
 ## Further Investigation
 
-- Explore the prices of each plane and type engine to see whether new or used is more cost-effective.
-- Research Airbus planes with Turbo Jet and Turbo Shaft engine.
-- Research into Bombadier airplanes
+- Explore and research different Airbus Turbo Jet airplanes, specifically A320ceo and A350F.
+- Compare data with total domestic flights.
+- Explore and research Bombardier as another possible option.
 
 
 ## Additional Resources
@@ -74,14 +80,23 @@ We recommend choosing Airbus manufactured airplanes that use a Turbo Jet engine.
 - <p><a href="https://www.aviationsafetymagazine.com/features/the-real-risks-of-engine-failures/">The Real Risks of Engine Failures</a></p>
 - <p><a href="https://www.airpowerinc.com/types-of-aircraft-engines">Types of Aircraft Engines</a></p>
 
+
+## For More Information
+
+Please visit our full analysis in our [Jupyter Notebook](./index.ipynb), [Tableau Dashboard](https://public.tableau.com/app/profile/john.baumgartner/viz/AirlineSafetyReport_16963506541880/IncidentsandFatalitiesoftheFourMajorAirplaneManufacturers?publish=yes), or [Slide Presentation](./Aviation%20Accident%20Analysis.pdf).
+
+For more questions, please feel free to reach us: **John Baumgartner | jtbpilgrim@gmail.com, Mytreyi Abburu | abburumk@gmail.com, Andreas Budhi | ab41571@gmail.com.**
+
+
 ## Repository Structure
 
 You are currently in the README.md file. The 'index.ipynb' file contains the jupyter notebook of the explaratory analysis of the given data that provides step-by-step guide to how we came to our conclusion. 'Images' file contains the images used in this file. The images were taken from the internet.
 
 ```
-├── Data                <- Data file used in this project
-├── Image               <- Images and Graphs used in this project obtained from external and internal source
-├── index.ipynb         <- Jupyter notebook of the project containing codes and analysis
-├── README.md           <- Both sourced externally and generated from code
-└── images                   <- Both sourced externally and generated from code
+├── Data                             <- Data file used in this project
+├── Image                            <- Images and Graphs used in this project obtained from external and internal source
+├── .gitignore                       <- Contains list of files to be ignored from GitHub
+├── Aviation Accident Analysis.pdf   <- Slide Presentation of the project
+├── index.ipynb                      <- Jupyter notebook of the project containing codes and analysis     
+└── README.md                        <- Contains README file to be reviewed
 ```
