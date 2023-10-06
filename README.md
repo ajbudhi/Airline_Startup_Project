@@ -63,7 +63,7 @@ Out of the top 4 manufacturers,, we recommend choosing Airbus manufactured airpl
 
 - Explore the prices of each plane and type engine to see whether new or used is more cost-effective.
 - Research Airbus planes with Turbo Jet and Turbo Shaft engine.
-- 
+- Research into Bombadier airplanes
 
 
 ## Additional Resources
