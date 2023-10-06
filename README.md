@@ -57,7 +57,7 @@ This graphs tells us that, in the past 20 years, Turbo Shaft and Turbo Jet engin
 
 ## Conclusion
 
-Out of the top 4 manufacturers,, we recommend choosing Airbus manufactured airplanes that use either Turbo Jet and Turbo Shaft engine.
+We recommend choosing Airbus manufactured airplanes that use a Turbo Jet engine.
 
 ## Further Investigation
 
@@ -68,7 +68,8 @@ Out of the top 4 manufacturers,, we recommend choosing Airbus manufactured airpl
 
 ## Additional Resources
 
-- <p><a href="https://www.investopedia.com/ask/answers/050415/what-companies-are-major-players-airline-supply-business.asp#:~:text=Large%20Passenger%20Airplane%20Manufacturers,business%20for%20large%20commercial%20jets">Who are the Major Airplace Manufacturing Companies?</a></p>
+- <p><a href="https://www.phl.org/newsroom/911-security-impact">A Look at How Airport Security has Evolved Post 9-11</a></p>
+- <p><a href="https://www.investopedia.com/ask/answers/050415/what-companies-are-major-players-airline-supply-business.asp#:~:text=Large%20Passenger%20Airplane%20Manufacturers,business%20for%20large%20commercial%20jets">Who are the Major Airplane Manufacturing Companies?</a></p>
 - <p><a href="https://pilotinstitute.com/airbus-vs-boeing/">Airbus vs Boeing</a></p>
 - <p><a href="https://www.aviationsafetymagazine.com/features/the-real-risks-of-engine-failures/">The Real Risks of Engine Failures</a></p>
 - <p><a href="https://www.airpowerinc.com/types-of-aircraft-engines">Types of Aircraft Engines</a></p>
