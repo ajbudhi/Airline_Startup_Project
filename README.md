@@ -30,7 +30,7 @@ Final dataset N = 2688
 
 
 ### Total Number of Accidents/Incidents for each of the Top 4 Airplane Manufacturers
-![graph1](./Image/manufacturersVSaccidents.png)
+![graph1](./Image/numberofaccidentsVSmanufacturers.png)
 
 Airbus and Bombardier had the least amount of Accidents/Incidents in the United States.
 
