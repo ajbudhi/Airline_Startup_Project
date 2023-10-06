@@ -63,7 +63,7 @@ We recommend choosing Airbus manufactured airplanes that use a Turbo Jet engine.
 
 - Explore the prices of each plane and type engine to see whether new or used is more cost-effective.
 - Research Airbus planes with Turbo Jet and Turbo Shaft engine.
-- 
+- Research into Bombadier airplanes
 
 
 ## Additional Resources
