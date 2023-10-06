@@ -30,23 +30,23 @@ Final dataset N = 2688
 
 
 ### Total Number of Accidents/Incidents for each of the Top 4 Airplane Manufacturers
-
+![graph1](./Image/manufacturersVSaccidents.png)
 
 Airbus and Bombardier had the least amount of Accidents/Incidents in the United States.
 
 
 ### Total Number of Fatal Injuries for each of the Top 4 Airplane Manufacturers
-
+![graph2](./Image/manufacturersVSfatalinjuries.png)
 
 We went further to take into account number of Total Fatal Injuries for the top 4 airplane manufacturers in the past 20 years. The graph shows that Airbus and Boeing had the least amount of Total Fatal Injuries.
 
 ### Total Number of Injuries for each of the Top 4 Airplane Manufacturers
-
+![graph3](./Image/manufacturersVSinjuries.png)
 
 In regards to Total Injuries, which does not include fatalities, Airbus and Bombardier are responsible for the least amount. 
 
 ### Total Fatal Injuries in the past 20 years by year and for each top 4 Manufacturers
-
+![graph4](./Image/fatalinjuryVSyearsmanufacturers.png)
 
 In comparing these graphs, we see that Airbus has been consistent in the past 20 years in having the least amount of Fatal Injuries
 
@@ -57,7 +57,7 @@ Here is another view of the Number of Fatal Injuries for each of the top 4 manuf
 
 
 ### Total Number of Fatal Injuries for different Types of Engine for each of the Top 4 Airplane Manufacturers
-
+![graph6](./Image/engineVSfatalinjury.png)
 
 This graph tells us that Turbo Shaft and Turbo Jet engine had the least amount of Fatal Injuries.
 
