@@ -97,6 +97,6 @@ You are currently in the README.md file. The 'index.ipynb' file contains the jup
 ├── Image                            <- Images and Graphs used in this project obtained from external and internal source
 ├── .gitignore                       <- Contains list of files to be ignored from GitHub
 ├── Aviation Accident Analysis.pdf   <- Slide Presentation of the project
-├── index.ipynb                      <- Jupyter notebook of the project containing codes and analysis     
-└── README.md                        <- Contains README file to be reviewed
+├── README.md                        <- Contains README file to be reviewed    
+└── index.ipynb                      <- upyter notebook of the project containing codes and analysis
 ```
