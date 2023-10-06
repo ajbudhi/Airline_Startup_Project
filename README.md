@@ -16,6 +16,7 @@ We were using dataset 'AviationData.csv' from the National Transportation Safety
 
 In this data, it contains 88889 entries with a total of 31 columns. 
 
+
 ## Data Analysis
 
 Through an outside resource, we determined that the best way to start is through reputation. Hence, we decided to restrict our exploration to the top 4 airplane manufacturers, and they are Beechcraft, Airbus, Boeing, and Bombardier.
@@ -29,6 +30,7 @@ In dealing with missing data, we determined that the count for the overall data 
 Final dataset N = 2688
 
 
+
 ### Total Number of Accidents/Incidents for each of the Top 4 Airplane Manufacturers
 ![graph1](./Image/numberofaccidentsVSmanufacturers.png)
 
@@ -40,15 +42,18 @@ Airbus and Bombardier had the least amount of Accidents/Incidents in the United 
 
 We went further to take into account number of Total Fatal Injuries for the top 4 airplane manufacturers in the past 20 years. The graph shows that Airbus and Boeing had the least amount of Total Fatal Injuries.
 
+
 ### Total Number of Injuries for each of the Top 4 Airplane Manufacturers
 ![graph3](./Image/manufacturersVSinjuries.png)
 
 In regards to Total Injuries, which does not include fatalities, Airbus and Bombardier are responsible for the least amount. 
 
+
 ### Total Fatal Injuries in the past 20 years by year and for each top 4 Manufacturers
 ![graph4](./Image/fatalinjuryVSyearsmanufacturers.png)
 
 In comparing these graphs, we see that Airbus has been consistent in the past 20 years in having the least amount of Fatal Injuries
+
 
 ### A Trendline View of Total Fatal Injuries in the past 20 years for each top 4 manufacturers
 ![graph5](./Image/FatalInjuriesTrendline.png)
@@ -61,9 +66,11 @@ Here is another view of the Number of Fatal Injuries for each of the top 4 manuf
 
 This graph tells us that Turbo Shaft and Turbo Jet engine had the least amount of Fatal Injuries.
 
+
 ## Conclusion
 
 After conducting data analysis, we recommend choosing Airbus manufactured airplanes since they have been responsible for only 1% of the fatalities out of the top 4 airplane manufacturers. Since we recommend Airbus, we also recommend to start with commercial airlines. Finally, we also recommend Turbo Jet engine type airplanes since our data analysis indicates that Airbus manufactured Turbo Jet airplanes are responsible for 0 fatal injuries.
+
 
 ## Further Investigation
 
