@@ -19,7 +19,7 @@ In this data, it contains 88889 entries with a total of 31 columns.
 
 ## Data Analysis
 
-Through an outside resource, we determined that the best way to start is through reputation. Hence, we decided to restrict our exploration to the top 4 airplane manufacturers, and they are Beechcraft, Airbus, Boeing, and Bombardier.
+Through an outside resource, we determined that the best way to start was through reputation. Hence, we decided to restrict our exploration to the top 4 airplane manufacturers, and they are Beechcraft, Airbus, Boeing, and Bombardier.
 
 We first added a new column 'Year' to better filter according to year. We then filtered the data to only include accidents after the year 2002 and that occurred in the United States only. 
 
